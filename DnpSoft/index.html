@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login DNP SOFT</title>
+    <script type="text/javascript" src="Scripts/jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="Scripts/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="Content/bootstrap.min.css" />
+    <script type="text/javascript" src="Scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="CustomCss/login.css" />
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <div class="fadeIn first">
+                <img src="Images/logo.png" id="icon" alt="Logo" />
+            </div>
+            <input type="text" id="txtRuc" class="fadeIn second" name="txtRuc" placeholder="Ruc">
+            <input type="text" id="txtUser" class="fadeIn second" name="txtUser" placeholder="Usuario">
+            <input type="text" id="txtPassword" class="fadeIn third" name="txtPassword" placeholder="Clave">
+            <input type="button" class="fadeIn fourth" value="Ingresar" id="btnlogin">
+            <div id="formFooter">
+                <a class="underlineHover" href="#">Olvido su Clave?</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="modAlert" tabindex="-1" role="dialog" aria-labelledby="modAlertLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-danger" id="modAlertLabel">Error</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Credenciales incorrectas!!!!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

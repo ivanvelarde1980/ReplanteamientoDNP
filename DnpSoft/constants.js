@@ -1,0 +1,9 @@
+﻿app.constant("titleSuccess", "Conformidad");
+app.constant("titleError", "Error");
+app.constant("titleWarning", "Advertencia");
+app.constant("urlSecurityService", "http://localhost:49244/");
+app.constant("urlClientService", "http://172.16.0.189/DNPClientes/");
+app.constant("urlMasterService", "http://172.16.0.189/DNPMaestras/");
+app.constant("urlCollaboratorService", "http://localhost:65528/");
+app.constant("institution", 1);
+app.constant("application", 2);
